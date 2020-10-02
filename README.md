@@ -4,7 +4,7 @@
 **Usage: main.py [options]**
 *Options:*
 
-|   Command    |  |
+|   Command    |  Description |
 | ------------ | ------------ |
 |   -d, --debug   |  Print debug information |
 |  n NUM, --threads  NUM |    set maximum number of threads to use (default: 100)  |
@@ -13,8 +13,8 @@
 
 
 
-# Installation
-------------
+#Installation
+
 
 ```shell
 $ pip install prettytable requests
