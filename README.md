@@ -1,23 +1,20 @@
 # Multi-threaded Google Ban Checker
 
-```
-Usage: main.py [options]
 
-Options:
-  -h, --help            show this help message and exit
-  -d, --debug           Print debug information
-  -n NUM, --threads=NUM
-                        set maximum number of threads to use (default: 100)
+**Usage: main.py [options]**
+*Options:*
 
-  Select one of the following progress option::
-    -%, --show-progress-status
-                        show realtime progress status and a tabular result at
-                        the end
-    -R, --realtime      show results in realtime in csv format
-```
+|   Command    |  Description |
+| ------------ | ------------ |
+|   -d, --debug   |  Print debug information |
+|  n NUM, --threads  NUM |    set maximum number of threads to use (default: 100)  |
+|  -%, --show-progress-status |    show realtime progress status and a tabular result at the end  |
+|  -R, --realtime |    show results in realtime in csv format  |
 
-Installation
-------------
+
+
+#Installation
+
 
 ```shell
 $ pip install prettytable requests
@@ -59,6 +56,10 @@ How it works?
 	5. Repeats step iii.
 	6. After 40 seconds wait, third page is requested by adding `&start=20` to query string
 	7. Finally thread returns with result.
+
+
+
+
 
 **NOTE**:
 - If ban is detected at any stage no further requests will be made.
