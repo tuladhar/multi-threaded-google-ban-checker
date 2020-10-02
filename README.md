@@ -1,22 +1,22 @@
 # Multi-threaded Google Ban Checker
 
-```
-Usage: main.py [options]
 
-Options:
-  -h, --help            show this help message and exit
-  -d, --debug           Print debug information
-  -n NUM, --threads=NUM
-                        set maximum number of threads to use (default: 100)
+**Usage: main.py [options]**
 
-  Select one of the following progress option::
-    -%, --show-progress-status
-                        show realtime progress status and a tabular result at
-                        the end
-    -R, --realtime      show results in realtime in csv format
-```
+*Options:*
 
-Installation
+|   -h, --help    |  show this help message and exit  |
+| ------------ | ------------ |
+|   -d, --debug   |  Print debug information |
+|  n NUM, --threads  | NUM  |
+
+>                         set maximum number of threads to use (default: 100)
+#### >  ** Select one of the following progress option:**
+    -%, --show-progress-status //  show realtime progress status and a tabular result at the end
+    -R, --realtime  //    show results in realtime in csv format
+
+
+# Instalation
 ------------
 
 ```shell
@@ -52,13 +52,20 @@ How it works?
 
 3. Proxies are distributed among pool of available threads and each thread does the following:
 
-	1. Each proxy makes 3 requests, retrieving default 10 page per request.
-	2. First page is requested as normal
-	3. Google ban is checked (50x), and if not banned then thread waits 40 seconds before using the proxy for another request
-	4. After 40 seconds wait, second page is requested by adding `&start=10` to query string
-	5. Repeats step iii.
-	6. After 40 seconds wait, third page is requested by adding `&start=20` to query string
-	7. Finally thread returns with result.
+------------
+
+
+-  Each proxy makes 3 requests, retrieving default 10 page per request.
+- First page is requested as normal
+-  Google ban is checked (50x), and if not banned then thread waits 40 seconds before using the proxy for another request
+-  After 40 seconds wait, second page is requested by adding `&start=10` to query string
+-  Repeats step iii.
+-  After 40 seconds wait, third page is requested by adding `&start=20` to query string
+-  Finally thread returns with result.
+
+------------
+
+
 
 **NOTE**:
 - If ban is detected at any stage no further requests will be made.
