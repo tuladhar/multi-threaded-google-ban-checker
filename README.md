@@ -13,13 +13,13 @@
 
 
 
-#Installation
+# Installation
 
 
 ```shell
 $ pip install prettytable requests
 $ git clone https://github.com/tuladhar/multi-threaded-google-ban-checker
-$ cat PROXIES.txt > python main.py --realtime
+$ cat PROXIES.txt | python main.py --realtime
 ```
 
 #### `PROXIES.txt` should be in following format (one proxy per line):
