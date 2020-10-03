@@ -37,7 +37,7 @@ try:
         import random
         import logging
 
-        from urlparse import urlparse
+        from urllib.parse import urlparse
         from pprint import pprint as pp
         from optparse import OptionParser, OptionGroup
         from collections import deque
@@ -186,7 +186,7 @@ if __name__ == "__main__":
                 sys.exit(0)
         else:
                 # valid proxies
-                proxies = filter(helper.proxy.is_valid, all_proxies)
+                proxies = list(filter(helper.proxy.is_valid, all_proxies))
                 num_proxies = len(proxies)
 
                 # second shuffle valid proxies
