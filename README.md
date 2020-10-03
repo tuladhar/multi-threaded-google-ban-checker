@@ -66,4 +66,9 @@ How it works?
 - Based on progress option used (see `--help` option), console is updated and results are displayed as soon as they're available .
 
 
-### Author: [Puru Tuladhar] (github.com/tuladhar)
+## Author
+- [Puru Tuladhar](github.com/tuladhar)
+
+
+## Contributors
+- See [Contributors.md](Contributors.md)
