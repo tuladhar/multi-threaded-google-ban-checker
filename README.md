@@ -2,12 +2,11 @@
 
 
 **Usage: main.py [options]**
-*Options:*
 
-|   Command    |  Description |
+|   Options    |  Description |
 | ------------ | ------------ |
 |   -d, --debug   |  Print debug information |
-|  n NUM, --threads  NUM |    set maximum number of threads to use (default: 100)  |
+|  -n NUM, --threads  NUM |    set maximum number of threads to use (default: 100)  |
 |  -%, --show-progress-status |    show realtime progress status and a tabular result at the end  |
 |  -R, --realtime |    show results in realtime in csv format  |
 
