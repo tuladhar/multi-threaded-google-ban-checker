@@ -2,9 +2,9 @@
 
 
 # This is a Google account ban checker 
-###What this is not
-# Google domain ban checker
-# Google advertisements ban checker
+# What this is not
+ 1)Google domain ban checker
+2)Google advertisements ban checker
 
 **Usage: main.py [options]**
 
