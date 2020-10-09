@@ -1,10 +1,7 @@
 # Multi-threaded Google  Ban Checker
 
-
-# This is a Google account ban checker 
-# What this is not
- 1)Google domain ban checker
-2)Google advertisements ban checker
+NOTE:
+This is not a Google account, domain or advertisements ban checker
 
 **Usage: main.py [options]**
 
@@ -27,8 +24,8 @@ $ cat PROXIES.txt | python main.py --realtime
 ```
 
 #### `PROXIES.txt` should be in following format (one proxy per line):
-#### IMPORTANT NOTE
-#### Different accounts at once can be searched
+**NOTE**:
+ Different accounts at once can be searched
 
 ```
 username:password@proxy1:port
@@ -82,5 +79,3 @@ How it works?
 ## Contributors
 - See [Contributors.md](Contributors.md)
 
-## TIPS FOR UPDATING
-1) Use a '#' to make things in bold
