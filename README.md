@@ -1,5 +1,7 @@
-# Multi-threaded Google Ban Checker
+# Multi-threaded Google  Ban Checker
 
+NOTE:
+This is not a Google account, domain or advertisements ban checker
 
 **Usage: main.py [options]**
 
@@ -22,6 +24,9 @@ $ cat PROXIES.txt | python main.py --realtime
 ```
 
 #### `PROXIES.txt` should be in following format (one proxy per line):
+**NOTE**:
+ Different accounts at once can be searched
+
 ```
 username:password@proxy1:port
 username:password@proxy2:port
@@ -31,8 +36,9 @@ username:password@proxy2:port
 #### Google Keywords and User Agents used by the script:
 - `helper/keywords.txt`
 - `helper/useragents.txt`
-
-Please update these files as needed.
+####PLease make sure your username and password exist here before using this
+####Please update these files as needed.
+####Always update the files before using this
 
 How it works?
 -------------
@@ -62,7 +68,11 @@ How it works?
 
 **NOTE**:
 - If ban is detected at any stage no further requests will be made.
-- Based on progress option used (see `--help` option), console is updated and results are displayed as soon as they're available .
+- You will be notified once a ban is detected
+- Based on progress option used (see `--help` option), console is updated and results are displayed as soon as they're available 
+-Please update these files as needed.
+-Always update the files before using this
+.
 
 
 ## Author
@@ -71,3 +81,4 @@ How it works?
 
 ## Contributors
 - See [Contributors.md](Contributors.md)
+
