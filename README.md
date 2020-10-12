@@ -69,7 +69,10 @@ How it works?
 **NOTE**:
 - If ban is detected at any stage no further requests will be made.
 - You will be notified once a ban is detected
-- Based on progress option used (see `--help` option), console is updated and results are displayed as soon as they're available .
+- Based on progress option used (see `--help` option), console is updated and results are displayed as soon as they're available 
+-Please update these files as needed.
+-Always update the files before using this
+.
 
 
 ## Author
