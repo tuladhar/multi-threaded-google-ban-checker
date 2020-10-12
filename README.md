@@ -24,8 +24,8 @@ $ cat PROXIES.txt | python main.py --realtime
 ```
 
 #### `PROXIES.txt` should be in following format (one proxy per line):
-**NOTE**:
- Different accounts at once can be searched
+**NOTE:**
+- Different accounts at once can be searched
 
 ```
 username:password@proxy1:port
@@ -36,9 +36,11 @@ username:password@proxy2:port
 #### Google Keywords and User Agents used by the script:
 - `helper/keywords.txt`
 - `helper/useragents.txt`
-####PLease make sure your username and password exist here before using this
-####Please update these files as needed.
-####Always update the files before using this
+
+**NOTE:**
+- Please make sure your username and password exist here before using this
+- Please update these files as needed.
+- Always update the files before using this
 
 How it works?
 -------------
@@ -66,7 +68,7 @@ How it works?
 
 
 
-**NOTE**:
+**NOTE:**
 - If ban is detected at any stage no further requests will be made.
 - You will be notified once a ban is detected
 - Based on progress option used (see `--help` option), console is updated and results are displayed as soon as they're available 
