@@ -15,7 +15,7 @@ This is not a Google account, domain or advertisements ban checker
 
 ## Table of Contents
 * [Installation](#Installation)
-* [How it works?](#How it works?)
+* [How it works](#How it works?)
 * [Contributing](#Contributing)
 * [Author](#Author)
 * [Contributors](#Contributors)
